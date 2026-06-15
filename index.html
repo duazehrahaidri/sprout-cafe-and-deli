@@ -13,6 +13,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<div id="loader">
+  <div class="sprout">🌱</div>
+</div>
+<script>
+  window.addEventListener("load", function() {
+    document.getElementById("loader").style.display = "none";
+  });
+</script>
 
 
  <body>
@@ -36,6 +44,23 @@
     <p>Your neighbourhood spot for coffee, deli favourites, and warm vibes.</p>
     <a href="#menu">View Menu</a>
   </section>
+ <section id="location">
+  <h2>Find Us</h2>
+
+  <p>📍 222 Merton High Street, London, SW19 1AU</p>
+
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9934.98495799774!2d-0.1765!3d51.4149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876080f7c3e4c6f%3A0xacf0b0e0c6a4e2b!2s222%20Merton%20High%20St%2C%20London%20SW19%201AU!5e0!3m2!1sen!2suk!4v0000000000000"
+      width="100%"
+      height="350"
+      style="border:0; border-radius: 12px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
 
   <!-- MENU SECTION -->
   <section id="menu">
@@ -46,16 +71,36 @@
       <li>Flat White — £3.20</li>
       <li>Latte — £3.50</li>
       <li>Fresh Orange Juice — £3.80</li>
+      <li>Vanilla Cold Brew — £3.20</li>
+<li>Honey Oat Latte — £3.80</li>
+<li>Matcha Rose Iced Latte — £4.10</li>
+<li>Caramel Cloud Cappuccino — £3.90</li>
+<li>Peach Iced Tea — £2.80</li>
+<li>Mint Lemon Refresher — £2.60</li>
+
     </ul>
 
     <h3>Breakfast</h3>
     <ul>
+        <li>Berry Yogurt Parfait — £4.50</li>
+<li>Avocado Toast with Seeds — £5.20</li>
+<li>Banana Pancakes — £5.80</li>
+<li>Spinach & Feta Omelette — £6.10</li>
+<li>Granola Bowl with Honey — £4.90</li>
+
       <li>Avocado Toast — £6.50</li>
       <li>Granola Bowl — £5.80</li>
     </ul>
 
     <h3>Lunch & Deli</h3>
     <ul>
+        <li>Chicken Pesto Panini — £6.80</li>
+<li>Halloumi & Roasted Veg Wrap — £6.40</li>
+<li>Classic BLT Sandwich — £5.90</li>
+<li>Tomato Basil Soup — £4.20</li>
+<li>Caesar Salad Bowl — £6.50</li>
+<li>Falafel Mezze Plate — £7.20</li>
+
       <li>Chicken Pesto Panini — £7.20</li>
       <li>Falafel Wrap (V) — £6.80</li>
     </ul>
@@ -77,23 +122,7 @@
   </section>
 
   <!-- LOCATION SECTION -->
-  <section id="location">
-  <h2>Find Us</h2>
-
-  <p>📍 222 Merton High Street, London, SW19 1AU</p>
-
-  <div class="map-container">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9934.98495799774!2d-0.1765!3d51.4149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876080f7c3e4c6f%3A0xacf0b0e0c6a4e2b!2s222%20Merton%20High%20St%2C%20London%20SW19%201AU!5e0!3m2!1sen!2suk!4v0000000000000"
-      width="100%"
-      height="350"
-      style="border:0; border-radius: 12px;"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-</section>
+ 
 
 
   <!-- FOOTER -->
